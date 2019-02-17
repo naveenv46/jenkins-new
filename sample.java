@@ -178,8 +178,7 @@ public class AssistiveExample extends JPanel
     //if (context.getAccessibleEditableText() != null)
     //  editableTextCheckBox.setSelected(true);
     repaint();
-  }
-}
+  
 
 
 
