@@ -156,7 +156,7 @@ public class AssistiveExample extends JPanel
       componentCheckBox.setSelected(true);
       classLabel.setText("Class: " + context.getAccessibleComponent());
       parentLabel.setText("Parent: " + context.getAccessibleParent());
-    }
+    
     if (context.getAccessibleValue() != null)
       valueCheckBox.setSelected(true);
     if (context.getAccessibleIcon() != null)
@@ -178,6 +178,9 @@ public class AssistiveExample extends JPanel
     //if (context.getAccessibleEditableText() != null)
     //  editableTextCheckBox.setSelected(true);
     repaint();
+    
+   }
+     }
   
 
 
